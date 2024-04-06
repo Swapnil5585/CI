@@ -1,0 +1,17 @@
+git remote add origin ( Path of repository that u want to push the files)
+
+git push origin main/master/Dev/swapy --force ---->It will push the any branch to that particular repo.
+
+git branch -m main ---> Rename the branch to main from Master or viceversa
+
+git remote rm origin -----> Remove the saved origin of the github repo and give the new repo path according to push
+
+git stash --- It is switch for switching one branch to another branch without commiting but u have to stage the file
+
+git stash apply -- U will get the u saved stash file while moving to another branch
+
+git merge Dev -- It will merge the Dev branch to master
+
+git Fetch - It will not show u the changes commited in repo to the locally. It will dowmload the remote content but not changes the local repo.
+
+git pull - git fetch + git merge. It will copy changes from remote repo to the local repo.
