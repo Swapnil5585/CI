@@ -15,9 +15,3 @@ git merge Dev -- It will merge the Dev branch to master
 git Fetch - It will not show u the changes commited in repo to the locally. It will dowmload the remote content but not changes the local repo.
 
 git pull - git fetch + git merge. It will copy changes from remote repo to the local repo.
-
-git reset - It will commit back the reset
-
-mixed -- It will back the file from commit to the unstaging area.
-soft -- It will back the file from commit to staging 
-hard -- It will permentely remove the files and show the working tree clean
