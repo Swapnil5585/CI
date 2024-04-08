@@ -1,0 +1,7 @@
+Maven lifecycle
+can we skip any step any in maven
+how do u maintain source repo in git
+jenkins backup using plugins
+user access for the particular repo in github
+content based traffic
+

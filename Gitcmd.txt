@@ -15,3 +15,19 @@ git merge Dev -- It will merge the Dev branch to master
 git Fetch - It will not show u the changes commited in repo to the locally. It will dowmload the remote content but not changes the local repo.
 
 git pull - git fetch + git merge. It will copy changes from remote repo to the local repo.
+
+git reset - It will commit back the reset
+
+mixed -- It will back the file from commit to the unstaging area.
+soft -- It will back the file from commit to staging 
+hard -- It will permentely remove the files and show the working tree clean
+
+git revert - only particular file will be deleted and new commit will be reflected
+
+When should you use Git revert?
+Generally speaking, it's an effective way to undo changes in certain scenarios.
+For example, if you've pushed code that breaks the build, has unforeseen bugs, or violates another team member’s work, Git revert should be your go-to command
+
+git fork- Ur taking another repo and do the changes in it and send to them for pull request for mergeing them to owners repo.
+Pull request- 
+git clone- It will clone the repo to ur local 
